@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-I am a PhD student in mathematics at Sorbonne Université. You can check my website https://sites.google.com/view/thibaultalexandre-en.
+I am a Quant at G-Research with a PhD in mathematics from Sorbonne Université. You can check my website https://sites.google.com/view/thibaultalexandre-en.
