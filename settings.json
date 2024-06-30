@@ -1,10 +1,16 @@
 {
+    // Path to the Python interpreter
     "python.defaultInterpreterPath": "/Users/thibaultalexandre/venv/bin/python",
+    // Trust level for workspace files
     "security.workspace.trust.untrustedFiles": "open",
+    // Terminal environment settings
     "terminal.integrated.inheritEnv": false,
+    // Jupyter notebook kernel settings
     "jupyter.askForKernelRestart": false,
+    // Auto-save settings
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 10,
+    // File exclusion patterns
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -16,17 +22,66 @@
         "**/build": true,
         "**/dist": true,
         "**/__pycache__": true,
-        "**/trading.egg-info": true,
+        "**/trading.egg-info": true
     },
+    // Auto-detect color scheme
     "window.autoDetectColorScheme": true,
+    // Jupyter widget script sources
     "jupyter.widgetScriptSources": [
         "jsdelivr.com",
         "unpkg.com"
     ],
+    // Python-specific editor settings
     "[python]": {
         "editor.formatOnType": true,
         "editor.defaultFormatter": "ms-python.python"
     },
+    // Window zoom level
     "window.zoomLevel": 1,
+    // Preferred color theme for light mode
     "workbench.preferredLightColorTheme": "Visual Studio Dark",
+    // Additional suggestions
+    // Enable format on save
+    "editor.formatOnSave": true,
+    // Show whitespace characters
+    "editor.renderWhitespace": "all",
+    // Enable pylint for linting
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    // Enable code completion suggestions
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    // Set the theme to Dark+ (default dark) when in dark mode
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    // Linting settings
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length=88"
+    ],
+    // Color highlighting settings
+    "editor.tokenColorCustomizations": {
+        "comments": "#6A9955",
+        "keywords": "#569CD6",
+        "variables": "#9CDCFE",
+        "functions": "#DCDCAA",
+        "strings": "#CE9178"
+    },
+    // Font settings for Fira Code
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": "'calt', 'liga'",
+    // Additional Extensions
+    "extensions": [
+        "ms-python.python", // Python extension
+        "ms-python.vscode-pylance", // Pylance for Python
+        "esbenp.prettier-vscode", // Prettier for formatting
+        "streetsidesoftware.code-spell-checker", // Spell checker
+        "eamodio.gitlens", // GitLens for git integration
+        "visualstudioexptteam.vscodeintellicode" // IntelliCode for AI-assisted development
+    ]
 }
