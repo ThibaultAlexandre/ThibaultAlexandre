@@ -38,7 +38,7 @@ parse_git_branch() {
 }
 
 # Colorize the prompt with user, host, current directory, and git branch
-PS1="${BRIGHT_GREEN}\u${WHITE}@${BRIGHT_BLUE}\h ${BRIGHT_YELLOW}\w${BRIGHT_PURPLE} \$(parse_git_branch)${RESET_COLOR}\$ "
+PS1="${BRIGHT_GREEN}\u${WHITE} ${BRIGHT_YELLOW}\w${CYAN} \$(parse_git_branch)${RESET_COLOR}\$ "
 
 # Enable autocompletion
 if [ -f /usr/local/etc/bash_completion ]; then
