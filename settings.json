@@ -1,0 +1,32 @@
+{
+    "python.defaultInterpreterPath": "/Users/thibaultalexandre/venv/bin/python",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.inheritEnv": false,
+    "jupyter.askForKernelRestart": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.olean": true,
+        "**/build": true,
+        "**/dist": true,
+        "**/__pycache__": true,
+        "**/trading.egg-info": true,
+    },
+    "window.autoDetectColorScheme": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "window.zoomLevel": 1,
+    "python.formatting.provider": "none"
+}
