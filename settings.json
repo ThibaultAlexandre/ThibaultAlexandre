@@ -28,5 +28,5 @@
         "editor.defaultFormatter": "ms-python.python"
     },
     "window.zoomLevel": 1,
-    "python.formatting.provider": "none"
+    "workbench.preferredLightColorTheme": "Visual Studio Dark",
 }
