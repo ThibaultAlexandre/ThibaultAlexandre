@@ -45,9 +45,6 @@
     "editor.formatOnSave": true,
     // Show whitespace characters
     "editor.renderWhitespace": "all",
-    // Enable pylint for linting
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
     // Enable code completion suggestions
     "editor.quickSuggestions": {
         "other": true,
