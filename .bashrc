@@ -93,5 +93,5 @@ alias gs='git status'
 # Specific alias definition
 alias gcode="cd ~/Documents/code"
 alias gdot="cd ~/Documents/code/ThibaultAlexandre; git status"
-alias gtr="cd ~/Documents/code/trading; git status"
 alias gpe="cd ~/Documents/code/project-euler; git status"
+alias gdif="cd ~/Documents/code/diffusion; git status"
