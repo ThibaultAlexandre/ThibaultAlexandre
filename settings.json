@@ -72,6 +72,7 @@
     // Font settings for Fira Code
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'calt', 'liga'",
+    "workbench.editor.wrapTabs": true,
     // Additional Extensions
     "extensions": [
         "ms-python.python", // Python extension
