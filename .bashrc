@@ -95,3 +95,5 @@ alias gcode="cd ~/Documents/code"
 alias gdot="cd ~/Documents/code/ThibaultAlexandre; git status"
 alias gpe="cd ~/Documents/code/project-euler; git status"
 alias gdif="cd ~/Documents/code/diffusion; git status"
+
+alias sagelab="conda run -n sage_env jupyter-lab"
