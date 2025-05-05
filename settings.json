@@ -15,9 +15,9 @@
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
-        "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
+        "**/CVS": true,
         "**/*.olean": true,
         "**/build": true,
         "**/dist": true,
@@ -52,7 +52,7 @@
         "strings": true
     },
     // Set the theme to Dark+ (default dark) when in dark mode
-    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Night Owl Light (No Italics)",
     // Linting settings
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
@@ -61,14 +61,6 @@
     "python.linting.pylintArgs": [
         "--max-line-length=88"
     ],
-    // Color highlighting settings
-    "editor.tokenColorCustomizations": {
-        "comments": "#6A9955",
-        "keywords": "#569CD6",
-        "variables": "#9CDCFE",
-        "functions": "#DCDCAA",
-        "strings": "#CE9178"
-    },
     // Font settings for Fira Code
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'calt', 'liga'",
