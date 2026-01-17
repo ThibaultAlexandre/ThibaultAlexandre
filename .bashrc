@@ -75,6 +75,7 @@ extract() {
 # Export custom aliases and functions
 export -f dusage
 export -f extract
+export PATH="$HOME/.local/bin:$PATH"
 
 # Activate Python environment
 source "$HOME/venv/bin/activate"
